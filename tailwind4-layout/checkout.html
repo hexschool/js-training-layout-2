@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body>
+    <nav class="navbar justify-center">
+      <a class="navbar-brand" href="./index.html">Navbar</a>
+    </nav>
+    <div class="bg-light pt-12 pb-18">
+      <div class="container">
+        <div class="flex flex-wrap -mx-3 justify-center flex-col-reverse md:flex-row">
+          <div class="w-full md:w-1/2 px-3">
+            <div class="bg-white p-6">
+              <h4 class="font-bold">1. Contact Form</h4>
+              <p class="mt-6">Contact information</p>
+              <form>
+                <div class="mb-2">
+                  <label for="ContactMail" class="text-muted mb-0 form-label">Email</label>
+                  <input type="email" class="form-control rounded-none" id="ContactMail" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input rounded-none" id="ContactLorem">
+                  <label class="form-check-label" for="ContactLorem">Lorem ipsum dolor sit amet, consetetur</label>
+                </div>
+                <div class="mb-2">
+                  <label for="ContactName" class="text-muted mb-0 form-label">Name</label>
+                  <input type="text" class="form-control rounded-none" id="ContactName" placeholder="Carmen A. Rose">
+                </div>
+                <div class="">
+                  <label for="ContactPhone" class="text-muted mb-0 form-label">Phone</label>
+                  <input type="text" class="form-control rounded-none" id="ContactPhone" placeholder="0933-123-123">
+                </div>
+              </form>
+            </div>
+            <div class="bg-white p-6 mt-4">
+              <h4 class="font-bold">2. Shipping Form</h4>
+              <form>
+                <p class="mt-6 mb-4">Shipping address</p>
+                <div class="form-row">
+                  <div class="col mb-2">
+                    <select id="inputState" class="form-select rounded-none">
+                      <option selected>Country/Region</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="col mb-2">
+                    <select id="inputState2" class="form-select rounded-none">
+                      <option selected>City</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                </div>
+                <input type="text" class="form-control rounded-none mt-1" id="inputCity" placeholder="Address">
+                <p class="mt-6 mb-2">Payment</p>
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label text-muted" for="gridRadios1">WebATM
+                  </label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label text-muted" for="gridRadios2">ATM
+                  </label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label text-muted" for="gridRadios3">ApplePay
+                  </label>
+                </div>
+              </form>
+            </div>
+            <div class="flex flex-col-reverse md:flex-row mt-6 justify-between md:items-center items-end w-full">
+              <a href="./product.html" class="text-dark mt-0 md:mt-0 mt-4"><i class="bi bi-chevron-left mr-2"></i> Lorem ipsum</a>
+              <a href="./checkout-success.html" class="btn btn-dark py-4 px-18 rounded-none">Lorem ipsum</a>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 px-3">
+            <div class="border p-6 mb-6">
+              <h4 class="mb-6">Order Detail</h4>
+              <div class="flex">
+                <img src="https://images.unsplash.com/photo-1502743780242-f10d2ce370f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80" alt="" class="mr-2" style="width: 48px; height: 48px; object-fit: cover">
+                <div class="w-full">
+                  <div class="flex justify-between font-bold">
+                    <p class="mb-0">Lorem ipsum</p>
+                    <p class="mb-0">x10</p>
+                  </div>
+                  <div class="flex justify-between">
+                    <p class="text-muted mb-0"><small>NT$12,000</small></p>
+                    <p class="mb-0">NT$12,000</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex mt-2">
+                <img src="https://images.unsplash.com/photo-1502743780242-f10d2ce370f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80" alt="" class="mr-2" style="width: 48px; height: 48px; object-fit: cover">
+                <div class="w-full">
+                  <div class="flex justify-between font-bold">
+                    <p class="mb-0">Lorem ipsum</p>
+                    <p class="mb-0">x10</p>
+                  </div>
+                  <div class="flex justify-between">
+                    <p class="text-muted mb-0"><small>NT$12,000</small></p>
+                    <p class="mb-0">NT$12,000</p>
+                  </div>
+                </div>
+              </div>
+              <table class="table mt-6 border-t border-b text-muted">
+                <tbody>
+                  <tr>
+                    <th scope="row" class="border-0 px-0 pt-6 font-weight-normal">Subtotal</th>
+                    <td class="text-right border-0 px-0 pt-6">NT$24,000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="border-0 px-0 pt-0 pb-6 font-weight-normal">Payment</th>
+                    <td class="text-right border-0 px-0 pt-0 pb-6">ApplePay</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="flex justify-between mt-6">
+                <p class="mb-0 h4 font-bold">Total</p>
+                <p class="mb-0 h4 font-bold">NT$24,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/components.js"></script>
+  </body>
+</html>
