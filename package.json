@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx @tailwindcss/cli -i ./tailwind4-layout/src/input.css -o ./tailwind4-layout/dist/output.css",
+    "dev": "npx @tailwindcss/cli -i ./tailwind4-layout/src/input.css -o ./tailwind4-layout/dist/output.css --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.0.1"
+    "bootstrap": "^5.0.1",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/cli": "^4.0.0"
   }
 }

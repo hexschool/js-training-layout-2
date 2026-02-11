@@ -3,3 +3,4 @@ all.css
 all.css.map
 public/
 deploy.sh
+tailwind4-layout/dist
